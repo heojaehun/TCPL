@@ -53,8 +53,6 @@ int mygetline(char s[], int lim)
     while (s[i-1] == ' ' || s[i-1] == '\t')
         i--;
 
-    printf("%d...\n", i);
-
     if (c == '\n')
     {
         s[i] = c;
